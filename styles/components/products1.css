@@ -1,0 +1,108 @@
+.products{
+    position: relative;
+    overflow-x: hidden;
+}
+.products__container,.products__container2{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    
+}
+
+.products__title{
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    margin-bottom: 2rem;
+}
+
+.products__buttonCard{
+    
+    padding: 1rem;
+    background-color: var(--white);
+    
+}
+
+.products__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.products__card-img{
+    margin-inline: auto;
+    margin-bottom: 1rem;
+
+}
+
+.products__card-description{
+    width: 35ch;
+    /* border: 1px solid black; */
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.products__card-avaliacao{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.products__card-stars{
+    width: 8rem;
+
+}
+
+.products__card-numeros{
+    color: var(--golden);
+    font-weight: bold;
+}
+
+.products__card-precoAvista{
+    font-weight: 400;
+    color: var(--ligth-gray);
+    text-decoration: line-through;
+    margin-bottom: 0.1rem;
+}
+
+.products__card-precoParcelado{
+    font-weight:600;
+    margin-bottom: 0.1rem;
+}
+
+.products__card-precoPix{
+    font-weight: 600;
+}
+
+.products__card-precoHighligth{
+    color: var(--golden);
+    font-size: 1.5rem;
+}
+
+.sliderBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; 
+}
+
+.products__arrowLeft,.products__arrowLeft2 {
+    left: -0.5rem; 
+}
+
+.products__arrowRigth,.products__arrowRigth2 {
+    right: -0.5rem; 
+}
+
+
