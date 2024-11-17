@@ -1,18 +1,3 @@
-// const sliderContainer=document.querySelector('.products__container') //Container dos Produtos
-// const leftArroww=document.querySelector('.products__arrowLeft') //Seta Esquerda
-// const rigthArrow=document.querySelector('.products__arrowRigth') // Seta Direita
-
-// const scrollAmount=380
-
-// //Slider para a Esquerda
-// leftArroww.addEventListener('click',()=>{
-//     sliderContainer.scrollLeft -= scrollAmount
-// })
-
-// //Slider para a Direita
-// rigthArrow.addEventListener('click',()=>{
-//     sliderContainer.scrollLeft += scrollAmount
-// })
 
 
 //Primeiro Slider
