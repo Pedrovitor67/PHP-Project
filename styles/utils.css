@@ -36,16 +36,13 @@
 
 .btnY{
     display: inline-block;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: -0.05em;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 4px;
     background-color: var(--golden);
     color: var(--white);
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
     transition: 0.3s all;
 }
 
@@ -53,6 +50,18 @@
     background-color: rgba(225, 161, 0,0.85);
 }
 
+.btnDisabled{
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  background-color: var(--ligth-gray);
+  color: var(--white);
+  transition: 0.3s all;
+
+}
 
 .container{
     width: 100%;

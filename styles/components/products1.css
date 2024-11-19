@@ -2,7 +2,7 @@
     position: relative;
     overflow-x: hidden;
 }
-.products__container,.products__container2{
+.products__container,.products__container2,.products__container3,.products__container4{
     overflow-x: hidden;
     display: flex;
     justify-content: space-between;
@@ -97,11 +97,11 @@
     z-index: 2; 
 }
 
-.products__arrowLeft,.products__arrowLeft2 {
+.products__arrowLeft,.products__arrowLeft2,.products__arrowLeft3,.products__arrowLeft4 {
     left: -0.5rem; 
 }
 
-.products__arrowRigth,.products__arrowRigth2 {
+.products__arrowRigth,.products__arrowRigth2,.products__arrowRigth3,.products__arrowRigth4 {
     right: -0.5rem; 
 }
 
