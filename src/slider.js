@@ -10,6 +10,16 @@ const slider2 = document.querySelector(".products__container2");
 const leftButton2 = document.querySelector(".products__arrowLeft2");
 const rightButton2 = document.querySelector(".products__arrowRigth2"); 
 
+//Terceiro Slider
+const slider3 = document.querySelector(".products__container3");
+const leftButton3 = document.querySelector(".products__arrowLeft3");
+const rightButton3 = document.querySelector(".products__arrowRigth3");
+
+//Quarto Slider
+const slider4 = document.querySelector(".products__container4");
+const leftButton4 = document.querySelector(".products__arrowLeft4");
+const rightButton4 = document.querySelector(".products__arrowRigth4");
+
 
 function getScrollDistance() {
   const screenWidth = window.innerWidth; 
@@ -26,7 +36,7 @@ function getScrollDistance() {
 }
 
 
-
+//Configura o slider para poder ser reaproveitado durante o código com uma função.
 function setupSlider(slider, leftButton, rightButton) {
     leftButton.addEventListener("click", () => {
       slider.scrollBy({
@@ -47,6 +57,8 @@ function setupSlider(slider, leftButton, rightButton) {
 document.addEventListener("DOMContentLoaded", () => {
     setupSlider(slider, leftButton, rightButton);
     setupSlider(slider2, leftButton2, rightButton2);
+    setupSlider(slider3, leftButton3, rightButton3);
+    setupSlider(slider4, leftButton4, rightButton4);  
   });
 
 
@@ -54,6 +66,5 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("resize", () => {
   console.log(`Nova distância de scroll: ${getScrollDistance()}px`);
 });
-
 
 
