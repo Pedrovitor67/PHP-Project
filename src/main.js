@@ -4,6 +4,7 @@ import  '../styles/components/header.css'
 import '../styles/components/hero.css'
 import '../styles/components/products1.css'
 import '../styles/components/contact.css'
+import '../styles/components/features.css'
 
 
 import '../styles/utils.css'
