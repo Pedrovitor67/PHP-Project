@@ -10,6 +10,6 @@
 <nav>
     <a href="?pg=conteudo">Principal</a> |
     <a href="?pg=quemsomos">Quem somos</a> |
-    <a href="?pg=faleconosco">Contato</a>
-    <a href="?pg=cadastra.php"> Cadastar </a>
+    <a href="?pg=faleconosco">Contato</a>   |
+    <a href="?pg=cadastra"> Cadrastar </a>
 </nav>

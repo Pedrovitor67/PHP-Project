@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 
 <body>
@@ -20,3 +20,31 @@
 
 </body>
 </html>
+<?php
+
+    include_once("../config.inc.php");
+
+
+    
+    $nome = $_REQUEST['nome'];
+    $email = $_REQUEST['email'];
+    $senha = $_REQUEST['senha'];
+    
+    
+    
+    // 1ª etapa
+    $conexao = mysqli_connect("127.0.0.1","root","");
+    // 2ª etapa
+    $bd = mysqli_select_db($conexao,"connectpro");
+    // 3ª etapa
+    $sql = "INSERT INTO user
+    (nome,email,senha) VALUES
+    ('$nome','$email',$senha)";
+
+    $query = mysqli_query($conexao,$sql);
+
+    if($query){
+        echo "<h2>Cliente cadastrado com sucesso.";
+    }
+
+    mysqli_close($conexao);

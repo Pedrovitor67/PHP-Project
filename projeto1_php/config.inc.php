@@ -1,5 +1,5 @@
 <?php
     // 1ª etapa
-    $conexao = mysqli_connect("localhost","daniel","654321");
+    $conexao = mysqli_connect("127.0.0.1","root","");
     // 2ª etapa
-    $bd = mysqli_select_db($conexao,"bd_projeto1_php");
+    $bd = mysqli_select_db($conexao,"connectpro");

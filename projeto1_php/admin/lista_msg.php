@@ -11,7 +11,7 @@
         echo "E-mail: $tabela[email] <br>";
         echo "Assunto: $tabela[assunto] <br>";
         echo "Mensagem: $tabela[mensagem] <br>";
-        echo "<a href=?pg=excluir&id=$tabela[id]><b>X</b></a> <br>";
+        echo "<a href='exclui.php?id={$tabela['id']}'><b>X</b></a> <br>";
         echo "<hr>";
     }
 
