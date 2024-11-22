@@ -2,16 +2,17 @@
 
     include_once("../config.inc.php");
 
+
+    $id = $_REQUEST['id'];
     $nome = $_REQUEST['nome'];
     $email = $_REQUEST['email'];
-    $telefone = $_REQUEST['telefone'];
-    $cidade = $_REQUEST['cidade'];
-    $estado = $_REQUEST['estado'];
+    $senha = $_REQUEST['senha'];
+    
 
     // 3ª etapa
     $sql = "INSERT INTO cliente 
-    (nome,email,telefone,cidade,estado) VALUES
-    ('$nome','$email','$telefone','$cidade','$estado')";
+    (nome,email,senha) VALUES
+    ('$nome','$email',$senha)";
 
     $query = mysqli_query($conexao,$sql);
 
