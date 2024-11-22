@@ -10,7 +10,7 @@
     
 
     // 3ª etapa
-    $sql = "INSERT INTO cliente 
+    $sql = "INSERT INTO user
     (nome,email,senha) VALUES
     ('$nome','$email',$senha)";
 
