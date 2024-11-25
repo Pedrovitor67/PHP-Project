@@ -1,5 +1,7 @@
 //Tratamento do formulário para que o usuário só possa clicar no botão de submit quando tiver preenchido o campo de nome e E-mail.
 
+        //LEMBRETE DE FAZER TRATAMENTO PARA O INPUT FICAR INDISPONÍVEL APÓS A PESSOA CLICAR EM CADASTRAR. EFEITO PARECIDO COM O DA MAGAZINE LUIZA.
+
 const nomeInput=document.getElementById('inputName')
 const emailInput=document.getElementById('inputEmail')
 const submitInput=document.getElementById('inputSubmit')
