@@ -10,3 +10,4 @@ Para configurar o banco de dados, siga os passos abaixo:
    Usando o phpMyAdmin:
    - Faça login no phpMyAdmin.
    - Selecione "Importar".
+   - Escolha o arquivo `connectpro.sql` e clique em "Executar".
