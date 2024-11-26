@@ -4,13 +4,12 @@ include_once("config.inc.php");
 
 $nome = $_REQUEST['nome'];
 $email = $_REQUEST['email'];
-$assunto = $_REQUEST['assunto'];
-$mensagem = $_REQUEST['mensagem'];
+
 
 $sql = "INSERT INTO contato 
-        (nome,email,assunto, mensagem)
+        (nome,email)
         VALUES 
-        ('$nome','$email','$assunto','$mensagem')";
+        ('$nome','$email')";
 
 $query = mysqli_query($conexao, $sql);
 
