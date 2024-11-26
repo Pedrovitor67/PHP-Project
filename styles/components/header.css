@@ -4,7 +4,11 @@
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    max-width: 100%;    
+    max-width: 100%;
+    /* position: relative;
+    z-index: 9999;
+     */
+   
 }
 
 .header__logo{
@@ -27,6 +31,14 @@
     height:24px;
 }
 
+
+.header__bars{
+    position: relative;
+    z-index: 9999;
+}
+
+
+    
 
 
 /* xs */

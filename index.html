@@ -18,25 +18,63 @@
         <img src="Assets/imagens/439921497_1136544467672887_7030666314043998920_n.jpg" alt="" class="header__logo">
         <ul class="header__menu">
           <li>
-            <a href="" class="header__link">Apple</a>
+            <a href="#apple" class="header__link">Apple</a>
           </li>
           <li>
-            <a href="" class="header__link">Samsung</a>
+            <a href="#samsung" class="header__link">Samsung</a>
           </li>
           <li>
-            <a href="" class="header__link">Xiaomi</a>
+            <a href="#xiaomi" class="header__link">Xiaomi</a>
           </li>
           <li>
-            <a href="" class="header__link">JBL</a>
+            <a href="#jbl" class="header__link">JBL</a>
           </li>
         </ul>
         <div class="header__icons">
           <img src="Assets/Svgs/Search-Icon.svg" alt="" class="header__icons-self">
           <img src="Assets/Svgs/Phone-Icon.svg" alt="" class="header__icons-self">
-          <img src="Assets/Svgs/BarsYelow-Icon.svg" alt="" id="header__icons-bars" class="header__icons-self">
+         <button class="header__bars">
+           <img src="Assets/Svgs/BarsYelow-Icon.svg" alt="" id="header__icons-bars" class="header__icons-self"> 
+          </button>
+
         </div>
       </nav>
     </header>
+      <!--START OF MOBILE NAVIGATION-->
+      <div class="mobile-nav">
+        <nav >
+          <ul class="mobile-nav__menu">
+            <li>
+              <a href="#apple"  class="mobile-nav__link">Apple</a>
+            </li>
+
+            <li>
+              <a href="#samsung" class="mobile-nav__link">Samsung</a>
+
+            </li>
+            <li>
+              <a href="#xiaomi" class="mobile-nav__link">Xiaomi</a>
+            </li>
+            <li>
+              <a href="#jbl" class="mobile-nav__link">JBL</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+
+
+
+
+
+
+
+      <!--END OF MOBILE NAVIGATION-->
+
+
+
+
     <main>
       <section class="hero">
         <h1 class="hero__title"> <strong class="hero__title-black">Connect</strong>e-se aos Melhores <strong class="hero__title-gold">Pro</strong>dutos de Tecnologia</h1>
@@ -47,9 +85,9 @@
       </section>
 
       <!--==============PRIMEIRA SEÇÃO DE PRODUTOS========================-->
-      <section class="products container section">
+      <section class="products container section" id="apple">
 
-        <h1 class="products__title">Mais vendidos</h1>
+        <h1 class="products__title">Apple</h1>
 
         <button class="sliderBtn products__arrowLeft" >
           <img src="Assets/Svgs/ArrowLeft-Icon.svg" alt="">
@@ -177,9 +215,9 @@
 
       <!--==============SEGUNDA SEÇÃO DE PRODUTOS========================-->
 
-      <section class="products container section">
+      <section class="products container section" id="samsung">
 
-        <h1 class="products__title">Notebooks</h1>
+        <h1 class="products__title">Samsung</h1>
 
         <button class="sliderBtn products__arrowLeft2" >
           <img src="Assets/Svgs/ArrowLeft-Icon.svg" alt="">
@@ -326,9 +364,9 @@
       </section>
 
       <!--==============TERCEIRA SEÇÃO DE PRODUTOS========================-->
-      <section class="products container section">
+      <section class="products container section" id="xiaomi">
 
-        <h1 class="products__title">Celulares</h1>
+        <h1 class="products__title">Xiaomi</h1>
 
         <button class="sliderBtn products__arrowLeft3" >
           <img src="Assets/Svgs/ArrowLeft-Icon.svg" alt="">
@@ -456,9 +494,9 @@
 
       <!--==============QUARTA SEÇÃO DE PRODUTOS========================-->
 
-      <section class="products container section">
+      <section class="products container section" id="jbl">
 
-        <h1 class="products__title">Caixas de Som</h1>
+        <h1 class="products__title">JBL</h1>
 
         <button class="sliderBtn products__arrowLeft4" >
           <img src="Assets/Svgs/ArrowLeft-Icon.svg" alt="">
@@ -691,15 +729,53 @@
     </section>
 
     <section class="footer container section">
-      <div></div>
+      <div class="footer__firstColum">
 
-      <div></div>
+        <div class="footer__container">
+          <img src="Assets/imagens/439921497_1136544467672887_7030666314043998920_n.jpg" alt="" class="footer__containerImg">
+          <h2 class="footer__containerTitle">ConnectPro</h2>
+        </div>
+
+        <p class="footer__paragraph p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis consectetur modi mollitia.</p>
+
+        <p class="footer__paragraph p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit excepturi consectetur.
+        </p>
+        
+      </div>
+
+
+      <div class="footer__contact"> 
+        <!-- <h2 class="footer__contacTitle">Contacts</h2> -->
+
+          
+  
+        <ul class="footer__SocialContainer">
+          <li class="footer__SocialContainer-Item">Telefone: 83 98819-5699</li>
+          <li class="footer__SocialContainer-Item">Email:Vitorpedrovitor926@gmail.com</li>
+          <li class="footer__SocialContainer-Item">Endereço:Rua genésio gambarra filho,503</li>
+        </ul>
+
+      </div>
       
-      <div></div>
+      <div class="footer__social">
 
+        <div class="footer__socialIcons">
+          <a href="">
+            <img src="Assets/Svgs/Instagram-Icon.svg" alt="">
+          </a>
+          <a href="">
+            <img src="Assets/Svgs/Tiktok-Icon.svg" alt="">
+          </a>
+          <a href="">
+            <img src="Assets/Svgs/Whatsap-Icon.svg" alt="">
+          </a>
+        </div>
 
+        <p class="footer__socialText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nostrum vero neque ea. </p>
 
+      </div>
     </section>
+    <p class="copyrigth">ⒸTodos os direitos reservados a ConnectPro. </p>
 
 
 
