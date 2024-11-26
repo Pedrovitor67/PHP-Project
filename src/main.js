@@ -6,14 +6,20 @@ import '../styles/components/products1.css'
 import '../styles/components/contact.css'
 import '../styles/components/features.css'
 import '../styles/components/testemonial.css'
+import '../styles/components/footer.css'
+import '../styles/components/mobileNav.css'
 
 
-import '../styles/utils.css'
+import '../styles/utils.css';
+
+import mobileNav from './mobileNav';
+mobileNav();
 
 //Slider JavaScript
-import './slider'
+import './slider';
 
-//Forms JavaSript
-import './form'
+//Forms JavaSript 
+import './form';
+
 
 

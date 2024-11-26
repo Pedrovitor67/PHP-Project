@@ -1,7 +1,6 @@
 .testemonial{
-    /* border: 1px solid red; */
-     /* overflow-x: hidden;  */
     position: relative;
+    overflow-x: hidden;
 }
 
 .testemonial__title{
@@ -23,7 +22,8 @@
    
 }
 
-.testemonial__card{    
+.testemonial__card{  
+    /* border: 1px solid red;   */
     background-color: var(--white);
     border-radius: 10px;
     max-width: 500px; 
@@ -34,6 +34,7 @@
     align-items: center;
     gap: 0.5rem;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    
     
     
 
@@ -78,12 +79,12 @@ border-radius: 50%;
 /* @media (min-width: 640px) {} */
 
 /* md */
- @media (min-width: 768px) {
+ /* @media (min-width: 768px) {
     .testemonial{
           overflow-x: hidden;         
     }
     
- } 
+ }  */
 
 /* lg */
 /* @media (min-width: 1024px) {} */
