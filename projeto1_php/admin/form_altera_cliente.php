@@ -4,7 +4,7 @@
 
     $id = $_GET['id'];
 
-    $sql = "SELECT * FROM cliente WHERE id = $id";
+    $sql = "SELECT * FROM user WHERE id = $id";
 
     $query = mysqli_query($conexao,$sql);
 
@@ -16,10 +16,8 @@
     <input type="hidden" name="id" value="<?=$cliente['id'];?>">
     Nome: <input type="text" name="nome" value="<?=$cliente['nome'];?>"><br>
     E-mail: <input type="text" name="email" value="<?=$cliente['email'];?>"><br> 
-    Telefone: <input type="text" name="telefone" value="<?=$cliente['telefone'];?>"><br> 
-    Cidade: <input type="text" name="cidade" value="<?=$cliente['cidade'];?>"><br>
-    Estado: <input type="text" name="estado" value="<?=$cliente['estado'];?>"><br>
-
+    Senha: <input type="text" name="senha" value="<?=$cliente['senha'];?>"><br> 
+    
     <input type="submit" value="CADASTRAR">
 </form>
 

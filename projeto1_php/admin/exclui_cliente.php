@@ -6,7 +6,7 @@
 
     $sql = mysqli_query(
         $conexao,
-        "DELETE FROM cliente WHERE id = $id"
+        "DELETE FROM user WHERE id = $id"
     );
 
     if($sql){

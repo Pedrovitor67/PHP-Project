@@ -5,20 +5,22 @@
     $id = $_REQUEST['id'];
     $nome = $_REQUEST['nome'];
     $email = $_REQUEST['email'];
-    $telefone = $_REQUEST['telefone'];
-    $cidade = $_REQUEST['cidade'];
-    $estado = $_REQUEST['estado'];
+    $senha= $_REQUEST['senha'];
+   
+    echo "testando";
 
     // 3ª etapa
-    $sql = "UPDATE cliente SET
-    nome = '$nome', email = '$email',telefone = '$telefone',
-    cidade = '$cidade',estado = '$estado'
+    $sql = "UPDATE user SET
+    nome = '$nome', email = '$email',senha = '$senha',
+   
     WHERE id = $id";
-
+    
+    echo "testando 2";
     $query = mysqli_query($conexao,$sql);
 
     if($query){
         echo "<h2>Cliente alterado com sucesso.";
     }
-
+    
+        echo "<h2> falha na alteraçao do cliente";
     mysqli_close($conexao);
