@@ -15,8 +15,8 @@
    <h1>Painel Admin </h1>
     <nav>
         <a href="?pg=conteudo">Inicio</a> |
-        <a href="?pg=lista_msg">Listar Mensagens</a> |
-        <a href="?pg=lista_clientes">Clientes</a> |
+        <a href="?pg=lista_msg">Produtos solicitados</a> |
+        <a href="?pg=lista_clientes">Emails cadastrados</a> |
     </nav>
 
 <?php

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5em);
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    background-color: #F5F5F5;
+    display: grid;
+    place-content: center;
+
+}
+
+form{
+     /* border: 1px solid red;  */
+    border-radius: 10px;
+    max-width: min-content;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #ffffff ;
+    padding: 5rem 1rem;
+    margin-top: 10rem;
+    
+}
+
+
+
+.title__login{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    /* border: 1px solid red; */
+    width: 25ch;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.input{
+    height: 35px;
+    width: 60%;
+    font-size: 1.2rem;
+    border: none;
+    border: 1px solid black;
+    padding: 1rem 0;
+}
+
+.button{
+    border: none;
+    width: 50%;
+    background: none;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border: 0.5px solid black;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.button:hover{
+    background: rgba(211,211,211,0.4);
+    transition: 0.3s;
+}
+

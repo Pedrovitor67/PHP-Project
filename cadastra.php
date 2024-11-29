@@ -4,12 +4,11 @@ include_once("config.inc.php");
 
 $nome = $_REQUEST['nome'];
 $email = $_REQUEST['email'];
-$senha = $_REQUEST['senha'];
 
 $sql = "INSERT INTO user
-         (nome,email,senha) 
+         (nome,email) 
          VALUES
-         ('$nome','$email','$senha')";
+         ('$nome','$email')";
 
 $query = mysqli_query($conexao, $sql);
 

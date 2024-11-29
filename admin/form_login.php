@@ -1,5 +1,11 @@
+<link rel="stylesheet" href="form_login.css">
 <form action="login.php" method="post">
-    <label>Usuário <input type="text" name="usuario"></label><br>
-    <label>Senha <input type="text" name="senha"></label><br>
-    <input type="submit" value="Logar"><br>
+    <h3 class="title__login">Faça o seu login</h3>
+
+    <input type="text" name="usuario" placeholder="Usuário"  class="input">
+    
+     <input type="password" name="senha" placeholder="Senha" class="input">
+
+    <input type="submit" value="Logar" class="button"><br>
+    
 </form>
